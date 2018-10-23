@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textBienvenidos"
+            android:text="Bienvenido"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <ImageView
+
+            android:id="@+id/img_usuario"
+            android:layout_width="172dp"
+            android:layout_height="219dp"
+            android:layout_marginEnd="109dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="109dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textBienvenidos" />
+
+
+    </TableRow>
+
+
+    <TableRow >
+
+        <TextView
+
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nick usuario:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
+
+    </TableRow>
+    <TableRow android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/id_nombre2"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow >
+
+        <TextView
+            android:id="@+id/nombreC_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOMBRES COMPLETOS:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
+    </TableRow>
+
+    <TableRow android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/txt_nombresCompletos"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" " />
+    </TableRow>
+
+    <TableRow >
+
+        <TextView
+            android:id="@+id/edad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edad:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
+    </TableRow>
+    <TableRow android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/txt_edad"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" " />
+    </TableRow>
+
+    <TableRow >
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Email"
+            android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
+    </TableRow>
+
+    <TableRow  android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/txt_email"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" " />
+    </TableRow>
+
+</TableLayout>
+
+    </ScrollView>
