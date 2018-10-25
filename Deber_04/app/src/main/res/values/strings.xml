@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DEBER 04</string>
+    <string name="action_settings">Settings</string>
+    <string name="tvItemComponent">Contenido: </string>
+    <string name="tvItemField">Celda nยบ: </string>
+    <string name="etFecha">Fecha: </string>
+
+</resources>

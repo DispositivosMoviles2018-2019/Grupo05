@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <EditText
+                android:id="@+id/txtRusuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="USUARIO"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtRclave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint=" CLAVE"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtRnombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="NOMBRE"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtRapellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="APELLIDO"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtRemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="EMAIL"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtRcelular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="CELULAR"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GENERO" />
+
+            <RadioGroup
+                android:id="@+id/radioGenero"
+                android:layout_width="match_parent"
+                android:layout_height="51dp">
+
+                <RadioButton
+                    android:id="@+id/radioHombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="HOMBRE" />
+
+                <RadioButton
+                    android:id="@+id/radioMujer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="MUJER" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FECHA NACIMIENO" />
+
+            <Spinner
+                android:id="@+id/spinnerD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <Spinner
+                android:id="@+id/spinnerM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:id="@+id/spinnerA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/checkBoxop1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Optativa 1" />
+
+            <CheckBox
+                android:id="@+id/checkBoxop2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Optativa 2" />
+
+            <CheckBox
+                android:id="@+id/checkBoxop3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Optativa 3" />
+
+            <CheckBox
+                android:id="@+id/checkBoxprogra1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Programacion 1" />
+
+            <CheckBox
+                android:id="@+id/checkBoxprogra2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Programacion 2" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BECA" />
+
+            <Button
+                android:id="@+id/btnregistrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrar" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
