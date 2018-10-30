@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Administrador Suplente"
+        android:id="@+id/uno"/>
+    <item android:title="Administrador principal"
+        android:id="@+id/dos"/>
+    <item android:title="Administrador Oyente"
+        android:id="@+id/tres"/>
+
+
+
+</menu>
