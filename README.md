@@ -4,4 +4,4 @@
 
 - Chalco Alexis
 - Fernández Deysi
-- Paucar Jhonathan
+* [Paucar Jhonathan](https://github.com/jmpaucarm)
