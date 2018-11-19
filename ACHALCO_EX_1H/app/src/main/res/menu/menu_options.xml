@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".uce.edu.ec.vista.RegistroVehiculoActivity">
+
+    <item
+        android:id="@+id/opInsertar"
+        android:title="Agregar Vehículo"/>
+    <item
+        android:id="@+id/opEditar"
+        android:title="Editar Vehículo"
+        />
+    <item
+        android:id="@+id/opSalir"
+        android:title="Salir"/>
+</menu>
